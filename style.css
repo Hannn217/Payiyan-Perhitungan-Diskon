@@ -1,0 +1,89 @@
+/* Reset dan pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Wrapper untuk seluruh konten */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Kontainer utama */
+.container {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px #ccc;
+    text-align: center;
+}
+
+/* Header form */
+.header_form {
+    width: 96%;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #ffb882);
+}
+
+.header_form h2 {
+    color: rgb(75, 42, 20);
+}
+
+/* Label */
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+/* Input */
+input {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Button */
+button {
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f7c14e;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9e7621;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    padding: 20px 0;
+    border-top: 1px solid #afafaf;
+}

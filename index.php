@@ -25,7 +25,7 @@
                     <button type="reset" onclick="window.location.href=window.location.href">Reset</button>
                 </form>
             </div>
-
+ 
             <?php
             function formatUang($angka) // Function untuk pemformatan Harga
             {
